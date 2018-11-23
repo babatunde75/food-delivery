@@ -1,0 +1,191 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: tahoma;
+	background-image:  linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0, 0.7)),url(img/fried-rice.jpg); 
+
+}
+.hero{
+	position: absolute;
+	width: 850px;
+	top: 40%;
+	left: 8%;
+	
+}
+
+	header{
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0, 0.7)),url(img/fried-rice.jpg);
+	height: 130vh;
+	background-position: center;
+	background-size: cover;
+	
+}
+h1{
+	color: white;
+}
+
+.row{
+	max-width: 1140px;
+	margin:0 auto;
+}
+.main-nav{
+	margin-top: 62px;
+	list-style: none;
+	float: right;
+}
+.main-nav li{
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.main-nav li a{
+	color: white;
+	text-decoration: none;
+	font-size: 90%;
+	font-weight: bold;
+
+}
+.main-nav li a:hover{
+	color:  yellow;
+	border-bottom: 2px solid yellow;
+	transition: all 0.5 ease-in;
+	padding: 15px 0;
+	
+}
+.main-nav li a:on-click{
+	color: yellow;
+}
+
+.logo img{
+	height: 100px;
+	float: left;
+	margin-top: 30px;
+}
+.container{
+	margin: auto;
+	width: 80%;
+	margin-top: 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.box-01{
+	background-color: #333;
+	color: #fff;
+	border: 5px double yellowgreen;
+	border-width: 10px;
+	border-top-width: 10px;
+	padding: 20px;
+}
+
+.box-01 h1{
+	font-style: inherit;
+	font-family: courier;
+	font-weight: 0.3em;
+	text-decoration: underline;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	word-spacing: 1em;
+}
+.box{
+	width: 300px;
+	padding: 40px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	background: yellowgreen;
+	box-shadow: 3px 5px 10px white;
+}
+.box h1{
+	color: white;
+	font-weight: 500;
+	text-transform:uppercase;
+}
+.box input[type="email"],.box input[type="text"], .box input[type="password"]{
+	border:0;
+	display: block;
+	background: none;
+	margin: 20px auto;
+	text-align: center;
+	padding: 14px 10px;
+	border: 2px dotted yellow;
+	outline: none;
+	color: whitesmoke;
+	border-radius: 14px;
+	width: 95%;
+	font-size: 1em;
+	
+}
+.box input[type="submit"]{
+	border:0;
+	display: block;
+	background: none;
+	margin: 20px auto;
+	text-align: center;
+	padding: 14px 40px;
+	border: 2px dotted yellow;
+	outline: none;
+	color: black;
+	border-radius: 24px;
+	cursor: pointer;
+}
+.box input[type="submit"]:hover{
+	background: yellow;
+}
+div#orde{
+	display: flex;
+	width: 100%;
+}
+div#orde div{
+	margin: 10px;
+	width: calc(100% / 3);
+}
+.container{
+	text-align: center;
+}
+.order{
+	text-align: center;
+	color: black;
+	border-radius: 24px;
+	cursor: pointer;
+	border: 2px dotted yellow;
+	padding: 14px 40px;
+	margin: 20px auto;
+}
+.order:hover{
+	background: yellow;
+}
+#orde{
+	color: whitesmoke;
+}
+.orde h2{
+	color: black;
+}
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+
+}
+li .dropdown{
+	display: inline-block;
+}
+.dropdown-menu{
+	display: none;
+	position: absolute;
+}
+.dropdown:hover .dropdown-menu{
+	display: block;
+}
+table{
+	align-content: center;
+	margin: 20px;
+	width: 90%;
+	color: white;
+	
+}
+
